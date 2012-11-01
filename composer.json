@@ -1,0 +1,26 @@
+{
+    "name": "liip/formtranslationchoice-bundle",
+    "type": "symfony-bundle",
+    "description": "A Symfony2 bundle that provides a form choice and a validation constraint that work with translation domains.",
+    "keywords": ["symfony2", "form", "validation", "i18n", "translation"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "David Buchmann",
+            "email": "david@liip.ch"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "symfony/framework-bundle": ">=2.1,<2.3-dev"
+    },
+    "autoload": {
+        "psr-0": { "Liip\\Bundle\\FormTranslationChoiceBundle": "" }
+    },
+    "target-dir": "Liip/Bundle/FormTranslationChoiceBundle",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}
