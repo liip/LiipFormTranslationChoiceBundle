@@ -1,12 +1,12 @@
 FormTranslationChoiceBundle
 ===========================
 
-This Symfony2 bundle provides a form choice and a validation constraint based
-on [translation domains](http://symfony.com/doc/current/book/translation.html#using-message-domains).
+This Symfony2 bundle provides a form choice field type and a validation
+constraint that work with [translation domains](http://symfony.com/doc/current/book/translation.html#using-message-domains).
 You can use all strings of a translation domain as values for a field of your
 entity. The form stores the translation key in the field.
 
-For example, we use it with an entity `person` that has a field `title`. We use
+For example, we use it with an entity `Person` that has a field `title`. We use
 a translation domain `person_title` and maintain all possible titles a person
 can have (Mr, Ms, Prof, Dr, and so on) in the translation file. The entity
 stores the translation key and the title can thus be translated as needed. We
@@ -63,13 +63,14 @@ for the used domain, or none at all. This bundle does not merge different
 languages, but does fall back to the default language if the requested language
 does not exist.
 
-Form widget
------------
+translation_choice Form Field Type
+----------------------------------
 
-The form widget `translation_choice` is based on the core `choice` and provides
+The `translation_choice` field type is based on the core `choice` and provides
 all translations of the specified domain as choices. You can use the options of
-the standard [Symfony2 choice widget](http://symfony.com/doc/current/reference/forms/types/choice.html).
-It makes no sense to specify the choice or choice_list argument though.
+the standard [Symfony2 choice field type](http://symfony.com/doc/current/reference/forms/types/choice.html).
+It makes no sense to specify the choice or choice_list argument though, as they
+come from the translation domain.
 
 To select the translation domain to use, the `translation_domain` option is
 required.
