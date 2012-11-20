@@ -86,6 +86,9 @@ $builder
 By default, the request locale is used, but you can set the `locale` option if
 you need to override this.
 
+By default the values are sorted alphabetically. If you don't want them to be sorted
+use the `sorted' option set to false.
+
 
 Validation constraint
 ---------------------
