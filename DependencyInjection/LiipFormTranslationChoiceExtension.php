@@ -1,6 +1,6 @@
 <?php
 
-namespace Liip\Bundle\FormTranslationChoiceBundle\DependencyInjection;
+namespace Liip\FormTranslationChoiceBundle\DependencyInjection;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\Config\FileLocator;

@@ -1,5 +1,5 @@
 <?php
-namespace Liip\Bundle\FormTranslationChoiceBundle\Validator\Constraints;
+namespace Liip\FormTranslationChoiceBundle\Validator\Constraints;
 
 use Symfony\Component\Validator\Constraint;
 
