@@ -49,7 +49,7 @@ your project configuration file:
 # app/config/config.yml
 parameters:
     #...
-    translator.class:      Liip\Bundle\FormTranslationChoiceBundle\Translation\Translator
+    translator.class:      Liip\FormTranslationChoiceBundle\Translation\Translator
 ```
 
 Usage

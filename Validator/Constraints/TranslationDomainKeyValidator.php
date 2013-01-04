@@ -1,10 +1,10 @@
 <?php
-namespace Liip\Bundle\FormTranslationChoiceBundle\Validator\Constraints;
+namespace Liip\FormTranslationChoiceBundle\Validator\Constraints;
 
 use Symfony\Component\Validator\Constraint;
 use Symfony\Component\Validator\ConstraintValidator;
 
-use Liip\Bundle\FormTranslationChoiceBundle\Translation\Translator;
+use Liip\FormTranslationChoiceBundle\Translation\Translator;
 
 /**
  * Validate that the value is a key in the specified translation domain

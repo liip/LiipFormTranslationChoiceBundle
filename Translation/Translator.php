@@ -1,5 +1,5 @@
 <?php
-namespace Liip\Bundle\FormTranslationChoiceBundle\Translation;
+namespace Liip\FormTranslationChoiceBundle\Translation;
 
 use Symfony\Bundle\FrameworkBundle\Translation\Translator as BaseTranslator;
 

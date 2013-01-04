@@ -1,6 +1,6 @@
 <?php
 
-namespace Liip\Bundle\FormTranslationChoiceBundle\DependencyInjection;
+namespace Liip\FormTranslationChoiceBundle\DependencyInjection;
 
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;
 use Symfony\Component\Config\Definition\ConfigurationInterface;
