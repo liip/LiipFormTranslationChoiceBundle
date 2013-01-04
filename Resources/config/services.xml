@@ -6,7 +6,7 @@
 
     <parameters>
         <parameter key="liip_form_translation_choice.form.translation_choice.class">Liip\FormTranslationChoiceBundle\Form\Type\TranslationChoiceType</parameter>
-        <parameter key="liip_form_translation_choice.validator.translationdomainkey.class">LiipFormTranslationChoiceBundle\Validator\Constraints\TranslationDomainKeyValidator</parameter>
+        <parameter key="liip_form_translation_choice.validator.translationdomainkey.class">Liip\FormTranslationChoiceBundle\Validator\Constraints\TranslationDomainKeyValidator</parameter>
     </parameters>
 
     <services>
