@@ -1,5 +1,5 @@
 <?php
-namespace Liip\Bundle\FormTranslationChoiceBundle;
+namespace Liip\FormTranslationChoiceBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 

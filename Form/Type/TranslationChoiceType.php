@@ -1,12 +1,12 @@
 <?php
-namespace Liip\Bundle\FormTranslationChoiceBundle\Form\Type;
+namespace Liip\FormTranslationChoiceBundle\Form\Type;
 
 use Symfony\Component\Form\AbstractType;
 use Symfony\Component\Form\Extension\Core\ChoiceList\SimpleChoiceList;
 use Symfony\Component\OptionsResolver\OptionsResolverInterface;
 use Symfony\Component\OptionsResolver\Options;
 
-use Liip\Bundle\FormTranslationChoiceBundle\Translation\Translator;
+use Liip\FormTranslationChoiceBundle\Translation\Translator;
 
 /**
  * A special case of the choice widget that uses translation message domains
