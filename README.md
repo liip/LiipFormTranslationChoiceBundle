@@ -94,7 +94,9 @@ Validation constraint
 ---------------------
 
 This bundle provides a validation constraint that ensures that a field has a
-value that is a key in the specified translation domain.
+value that is a key in the specified translation domain. As with all validators,
+this validator accepts null and empty string as well, so you additionally want
+a NotBlank validation if empty values should not be allowed.
 
 ```php
 use Liip\FormTranslationChoiceBundle\Validator\Constraints as TranslationAssert;

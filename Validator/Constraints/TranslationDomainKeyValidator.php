@@ -25,6 +25,10 @@ class TranslationDomainKeyValidator extends ConstraintValidator
 
     public function isValid($value, Constraint $constraint)
     {
+        if (null === $value || '' === $value) {
+            return;
+        }
+
         /** @var $constraint TranslationDomainKey */
         $values = $this->translator->all($constraint->translation_domain, $constraint->locale);
         if (! count($values)) {
@@ -36,10 +40,6 @@ class TranslationDomainKeyValidator extends ConstraintValidator
                 '{{ string }}' => $value,
                 '{{ domain }}' => $constraint->translation_domain,
             ));
-
-            return false;
         }
-
-        return true;
     }
 }
