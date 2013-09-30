@@ -25,6 +25,9 @@ php composer.phar require liip/formtranslationchoice-bundle --no-update
 php composer.phar update liip/formtranslationchoice-bundle
 ```
 
+Composer will ask you for the version of the bundle you want to install.
+Chose `1.0.*` unless you want to lock on a more specific version.
+
 Enable the bundle
 =================
 
