@@ -1,6 +1,11 @@
 FormTranslationChoiceBundle
 ===========================
 
+UNMAINTAINED
+============
+
+This bundle is no longer maintained. Feel free to fork it if needed.
+
 This Symfony2 bundle provides a form choice field type and a validation
 constraint that work with [translation domains](http://symfony.com/doc/current/book/translation.html#using-message-domains).
 You can use all strings of a translation domain as values for a field of your
